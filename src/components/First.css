@@ -6,7 +6,7 @@
     margin-left: 7%; /* Espacement à gauche */
     margin-right: 7%; /* Espacement à droite */
     position: relative;
-    background-color: #ff6347;
+    background-color: white;
 }
 
 .photoProfile {
@@ -92,6 +92,7 @@
   animation: fadeInText 3s ease-in-out 3.7s forwards;
   font-family: "Poppins", serif;
   font-size: 2vh;
+  position: absolute;
 
 }
 
@@ -102,5 +103,21 @@
     }
     100% {
         opacity: 1; /* Complètement visible */
+    }
+}
+
+.signature{
+    margin-bottom: -65vh;
+}
+
+#sign{
+    stroke-dasharray: 3048;
+    stroke-dashoffset: 3048;
+    animation: animate 3.7s ease-in-out 5s forwards;
+}
+
+@keyframes animate {
+    to{
+        stroke-dashoffset: 0;
     }
 }

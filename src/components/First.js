@@ -10,7 +10,7 @@ const First = () => {
             <div className='cadreProfil'></div>
             <div className='presentation'>
 
-            <h1>JE ME RESENTE</h1>
+            <h1>JE ME PRESENTE</h1>
             <p>Je suis Tanya RAJAONARIVELO, dessinatrice et peintre.</p>
             <p>Installée en Bretagne depuis 10 ans et d'origine Malgache, j'expose depuis maintenant 4 ans</p>
             <p>Je suis membre de deux associations artistiques dans le pays de Saint Brieuc :</p>

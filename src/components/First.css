@@ -90,6 +90,7 @@
     margin-left: 13vh; /* Positionnement du texte */
     opacity: 0; /* Le texte est invisible au départ */
     animation: fadeInText 3s ease-in-out 3.7s forwards; /* Animation de fondu */
+    font-family: "Poppins", serif;
 }
 
 /* Animation de fondu */

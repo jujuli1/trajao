@@ -43,6 +43,7 @@
 }
 
 .cadreProfil {
+    position: absolute;
     width: 231px;
     height: 231px;
     border: solid transparent 5px; /* Définir des bords transparents initialement */
@@ -82,5 +83,21 @@
         border-bottom: solid 5px black;
         border-right: solid 5px black;
         border-top: solid 5px black; /* Dessiner le bord supérieur */
+    }
+}
+
+.presentation {
+    margin-left: 13vh; /* Positionnement du texte */
+    opacity: 0; /* Le texte est invisible au départ */
+    animation: fadeInText 3s ease-in-out 3.7s forwards; /* Animation de fondu */
+}
+
+/* Animation de fondu */
+@keyframes fadeInText {
+    0% {
+        opacity: 0; /* Invisible */
+    }
+    100% {
+        opacity: 1; /* Complètement visible */
     }
 }

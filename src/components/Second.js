@@ -1,9 +1,10 @@
 import React from 'react';
 import Fleur from '../images/fleur.jpg'
+import '../components/Second.css'
 
 const Second = () => {
     return (
-        <div>
+        <div className='Second'>
             <h1>Dessin au feutre</h1>
             <ul>
                 <li>

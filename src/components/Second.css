@@ -11,4 +11,24 @@ ul{
     display: flex;
   gap: 14vh;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img{
+    width: 25vh;
+}
+
+.feutre{
+    margin-bottom: 30vh;
+    
+}
+
+.graphique{
+    margin-bottom: 30vh;
+    
+}
+
+.title{
+    margin-bottom: 15vh;
+  font-size: 5vh;
 }

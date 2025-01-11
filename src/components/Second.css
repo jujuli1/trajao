@@ -5,3 +5,10 @@
   border-left: solid black 5px;
   border-radius: 12px;
 }
+
+ul{
+    list-style: none;
+    display: flex;
+  gap: 14vh;
+  justify-content: center;
+}

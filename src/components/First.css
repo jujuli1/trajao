@@ -17,7 +17,7 @@
     height: 260px;  
     border-radius: 5px;
     opacity: 0;      /* Initialement l'image est invisible */
-    transform: scale(1); /* L'image commence à sa taille normale */
+    transform: scale(2); /* L'image commence à sa taille normale */
     position: absolute;
     animation: fadeIn 3s ease-in-out forwards, shrinkAndMove 2s ease-in-out 2s forwards; /* Applique les animations */
 }
@@ -35,7 +35,7 @@
 /* Animation pour rétrécir et se déplacer à gauche */
 @keyframes shrinkAndMove {
     0% {
-        transform: scale(1) translateX(0);
+        transform: scale(2) translateX(0);
     }
     50% {
         transform: scale(0.9) translateX(0);
@@ -111,7 +111,8 @@
 
 .signature{
     margin-bottom: -65vh;
-    position: absolute;
+  position: absolute;
+  margin-right: -86vh;
 }
 
 #sign{

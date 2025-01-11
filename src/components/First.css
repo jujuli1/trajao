@@ -183,3 +183,22 @@ a i {
         margin-left: 3vh; /* Ajuste la marge pour tablettes */
     }
 }
+
+/* Responsive pour écrans moyens (tablettes) */
+@media screen and (max-width: 1024px) {
+    .contact {
+      width: 85%; /* Augmente la largeur */
+      margin-left: -2vh; /* Réduit le décalage horizontal */
+      margin-top: -40vh; /* Réduit le décalage vertical */
+    }
+  }
+  
+  /* Responsive pour petits écrans (smartphones) */
+  @media screen and (max-width: 768px) {
+    .contact {
+        width: 61%;
+        margin-left: -33px;
+        margin-top: -30vh;
+        min-height: 50vh;
+    }
+  }

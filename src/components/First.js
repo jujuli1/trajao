@@ -1,10 +1,52 @@
 import React from 'react';
+import { useState } from 'react';
 import Fleur from '../images/fleur.jpg'
+import Modal from './Contact/Modale';
+import Contact from './Contact/Contact';
 import '../components/First.css'
 
 const First = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    {/*Modale contacte */}
+    const handleModalOpen = () => {
+        setIsModalOpen(true);
+      };
+    
+      const handleModalClose = () => {
+        setIsModalOpen(false);
+      };
     return (
         <div className='first'>
+
+<div className='link'>
+
+<a href="https://www.instagram.com/tan_didit/" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+</a>
+<a href="https://www.facebook.com/profile.php?id=61550479411738/" target="_blank">
+    <i class="fab fa-facebook"></i> Facebook
+</a>
+
+<button
+          
+          className='join-bouton'
+          onClick={handleModalOpen}
+        >
+          Me contacter
+        </button>  
+
+</div>
+
+
+
+<Modal show={isModalOpen} onClose={handleModalClose}>
+      
+      <Contact onClose={handleModalClose} /> 
+      </Modal>  
+
+
             
             <img src={Fleur} className='photoProfile'/>
             <div className='cadreProfil'></div>

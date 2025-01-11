@@ -147,3 +147,39 @@
     }
 }
 
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+a i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+
+.link {
+    position: absolute;
+  margin-top: -75vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    .presentation {
+        font-size: 1.5vh; /* Réduit la taille de la police */
+        margin-left: 2vh; /* Ajuste la marge pour petits écrans */
+    }
+}
+
+/* Pour les écrans moyens (ex. tablettes) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .presentation {
+        font-size: 1.8vh; /* Ajuste légèrement la taille de la police */
+        margin-left: 3vh; /* Ajuste la marge pour tablettes */
+    }
+}

@@ -38,3 +38,11 @@
     color: white;
     cursor: pointer;
 }
+
+.modal-content img {
+    max-width: 90%; /* Limite la largeur à 90% de la fenêtre */
+    max-height: 80vh; /* Limite la hauteur à 80% de la fenêtre */
+    object-fit: contain; /* Maintient les proportions de l'image */
+    border-radius: 8px; /* Ajoute un arrondi si nécessaire */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -22,6 +22,14 @@
     animation: fadeIn 3s ease-in-out forwards, shrinkAndMove 2s ease-in-out 2s forwards; /* Applique les animations */
 }
 
+@media (max-width: 480px) {
+    .photoProfile {
+        width: 250px; 
+        height: 250px; 
+        transform: scale(1.5); /* Réduit davantage l'échelle */
+    }
+}
+
 /* Animation de fondu */
 @keyframes fadeIn {
     0% {

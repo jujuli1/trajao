@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Modals/Modals.css';
+import '../Modals/Modals.css'; // Assurez-vous que ce fichier contient le CSS mis à jour
 
 const Modal = ({ show, onClose, imgSrc }) => {
     if (!show) return null;

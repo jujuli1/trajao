@@ -16,6 +16,7 @@ import Witch from '../images/witch.png';
 import Tigre from '../images/tigre.bmp';
 
 
+
 const Second = () => {
     const [modalOpen, setModalOpen] = useState(false);
     const [selectedImage, setSelectedImage] = useState('');
@@ -60,6 +61,8 @@ const Second = () => {
                 <h1 className='title'>Dessin graphique</h1>
                 <ul>{renderImages(graphiqueImages, 'graphique')}</ul>
             </div>
+
+            
 
             {/* Modal */}
             <Modal show={modalOpen} onClose={closeModal} imgSrc={selectedImage} />

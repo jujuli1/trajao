@@ -16,6 +16,14 @@ ul{
 
 .img{
     width: 25vh;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+.img:hover {
+    transform: scale(1.1); /* Agrandit l'image de 10% */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ajoute une ombre pour un effet plus esthétique */
 }
 
 .feutre{

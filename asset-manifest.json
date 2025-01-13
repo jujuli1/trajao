@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/trajao/static/css/main.6dc1d4fd.css",
-    "main.js": "/trajao/static/js/main.d905fa4b.js",
+    "main.css": "/trajao/static/css/main.2275741f.css",
+    "main.js": "/trajao/static/js/main.80b4d581.js",
     "static/js/488.9bb93aa1.chunk.js": "/trajao/static/js/488.9bb93aa1.chunk.js",
+    "static/media/witch.png": "/trajao/static/media/witch.de01f736c4785f78feb8.png",
+    "static/media/dessin.jpg": "/trajao/static/media/dessin.97b81511ec77e81d3cf6.jpg",
+    "static/media/tan1.png": "/trajao/static/media/tan1.8262472b5e578a29f12c.png",
+    "static/media/tigre.bmp": "/trajao/static/media/tigre.b117aa48a0127b6df5be.bmp",
+    "static/media/dessin2.jpg": "/trajao/static/media/dessin2.f740271fc3f3fc0902e3.jpg",
+    "static/media/Analakely.jpg": "/trajao/static/media/Analakely.45034d3f975e2cd2140c.jpg",
+    "static/media/tan2.png": "/trajao/static/media/tan2.074a44568771e52546ae.png",
+    "static/media/Sakalava.jpg": "/trajao/static/media/Sakalava.bfe9af1734db3188fe1b.jpg",
+    "static/media/tarot1.jpg": "/trajao/static/media/tarot1.adcd4b794bd55bcc2f00.jpg",
+    "static/media/sunbath.jpg": "/trajao/static/media/sunbath.db018aa7ff8d714b8fab.jpg",
+    "static/media/tarot2.jpg": "/trajao/static/media/tarot2.32102402a3acc1ff4388.jpg",
+    "static/media/pieuvre.png": "/trajao/static/media/pieuvre.5049fe69ff551f720b30.png",
     "static/media/fleur.jpg": "/trajao/static/media/fleur.7c5412c9014fa816a6e5.jpg",
     "static/media/logo.svg": "/trajao/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/trajao/index.html",
-    "main.6dc1d4fd.css.map": "/trajao/static/css/main.6dc1d4fd.css.map",
-    "main.d905fa4b.js.map": "/trajao/static/js/main.d905fa4b.js.map",
+    "main.2275741f.css.map": "/trajao/static/css/main.2275741f.css.map",
+    "main.80b4d581.js.map": "/trajao/static/js/main.80b4d581.js.map",
     "488.9bb93aa1.chunk.js.map": "/trajao/static/js/488.9bb93aa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dc1d4fd.css",
-    "static/js/main.d905fa4b.js"
+    "static/css/main.2275741f.css",
+    "static/js/main.80b4d581.js"
   ]
 }

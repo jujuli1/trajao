@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/trajao/static/css/main.c9b134b7.css",
-    "main.js": "/trajao/static/js/main.80b4d581.js",
+    "main.js": "/trajao/static/js/main.e5e12d10.js",
     "static/js/488.9bb93aa1.chunk.js": "/trajao/static/js/488.9bb93aa1.chunk.js",
+    "static/media/sorciere.png": "/trajao/static/media/sorciere.087b373e8bee0a0eef93.png",
     "static/media/witch.png": "/trajao/static/media/witch.de01f736c4785f78feb8.png",
     "static/media/dessin.jpg": "/trajao/static/media/dessin.97b81511ec77e81d3cf6.jpg",
     "static/media/tan1.png": "/trajao/static/media/tan1.8262472b5e578a29f12c.png",
@@ -15,15 +16,15 @@
     "static/media/sunbath.jpg": "/trajao/static/media/sunbath.db018aa7ff8d714b8fab.jpg",
     "static/media/tarot2.jpg": "/trajao/static/media/tarot2.32102402a3acc1ff4388.jpg",
     "static/media/pieuvre.png": "/trajao/static/media/pieuvre.5049fe69ff551f720b30.png",
-    "static/media/fleur.jpg": "/trajao/static/media/fleur.7c5412c9014fa816a6e5.jpg",
+    "static/media/tanya.jpeg": "/trajao/static/media/tanya.041a2444d130bd6a89b4.jpeg",
     "static/media/logo.svg": "/trajao/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/trajao/index.html",
     "main.c9b134b7.css.map": "/trajao/static/css/main.c9b134b7.css.map",
-    "main.80b4d581.js.map": "/trajao/static/js/main.80b4d581.js.map",
+    "main.e5e12d10.js.map": "/trajao/static/js/main.e5e12d10.js.map",
     "488.9bb93aa1.chunk.js.map": "/trajao/static/js/488.9bb93aa1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9b134b7.css",
-    "static/js/main.80b4d581.js"
+    "static/js/main.e5e12d10.js"
   ]
 }

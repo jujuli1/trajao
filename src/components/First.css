@@ -24,9 +24,10 @@
 
 @media (max-width: 480px) {
     .photoProfile {
-        width: 250px; 
-        height: 250px; 
-        transform: scale(1.5); /* Réduit davantage l'échelle */
+        width: 260px; 
+        height: 260px; 
+        transform: scale(1.5);
+        animation: fadeIn 4s ease-in-out forwards, shrinkAndMove 3s ease-in-out 2s forwards; /* Applique les animations */
     }
 }
 
@@ -209,7 +210,7 @@ a i {
   @media screen and (max-width: 768px) {
     .contact {
         width: 61%;
-        margin-left: -33px;
+        margin-left: -25vh;
         margin-top: -30vh;
         min-height: 50vh;
     }

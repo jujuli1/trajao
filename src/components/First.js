@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import Fleur from '../images/fleur.jpg'
+import Tanya from '../images/tanya.jpeg'
 import Modal from './Contact/Modale';
 import Contact from './Contact/Contact';
 import '../components/First.css'
@@ -25,7 +25,7 @@ const First = () => {
 <a href="https://www.instagram.com/tan_didit/" target="_blank">
     <i class="fab fa-instagram"></i> Instagram
 </a>
-<a href="https://www.facebook.com/profile.php?id=61550479411738/" target="_blank">
+<a href="https://www.facebook.com/people/Tan-artiste-peintre-illustratrice/61550479411738/" target="_blank">
     <i class="fab fa-facebook"></i> Facebook
 </a>
 
@@ -49,11 +49,11 @@ const First = () => {
 
 
             
-            <img src={Fleur} className='photoProfile'/>
+            <img src={Tanya} className='photoProfile'/>
             <div className='cadreProfil'></div>
             <div className='presentation'>
 
-            <h1>JE ME PRESENTE</h1>
+            <h1>MANAHOANA ! </h1>
             <p>Je suis Tanya RAJAONARIVELO, dessinatrice et peintre.</p>
             <p>Installée en Bretagne depuis 10 ans et d'origine Malgache, j'expose depuis maintenant 4 ans</p>
             <p>Je suis membre de deux associations artistiques dans le pays de Saint Brieuc :</p>

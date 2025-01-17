@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Fleur from '../images/fleur.jpg';
 import '../components/Second.css';
 import Modal from './Modals/Modals';
 import Analakely from '../images/Analakely.jpg';
@@ -8,12 +7,13 @@ import Dessin2 from '../images/dessin2.jpg';
 import Pieuvre from '../images/pieuvre.png';
 import Sakalava from '../images/Sakalava.jpg';
 import Sunbath from '../images/sunbath.jpg';
-import Tan1 from '../images/tan1.png';
+import Temp from '../images/tan1.png';
 import Tan2 from '../images/tan2.png';
-import Taro from '../images/tarot1.jpg';
-import Taro2 from '../images/tarot2.jpg';
+import Brioch from '../images/tarot1.jpg';
+import Cyclope from '../images/tarot2.jpg';
 import Witch from '../images/witch.png';
 import Tigre from '../images/tigre.bmp';
+import Sorciere from '../images/sorciere.png'
 
 
 
@@ -32,8 +32,8 @@ const Second = () => {
     };
 
     // Tableaux des images pour chaque section
-    const feutreImages = [Analakely, Dessin, Dessin2, Pieuvre, Sakalava, Sunbath, Tan1, Tan2];
-    const graphiqueImages = [Taro, Taro2, Witch, Tigre, Pieuvre, Sakalava, Sunbath, Tan1];
+    const feutreImages = [Analakely,Brioch,Cyclope, Dessin, Dessin2, Sunbath, Temp, Tan2];
+    const graphiqueImages = [Witch, Tigre, Pieuvre, Sakalava,Sorciere ];
 
     const renderImages = (images, section) => {
         return images.map((image, index) => (
@@ -67,7 +67,7 @@ const Second = () => {
             {/* Modal */}
             <Modal show={modalOpen} onClose={closeModal} imgSrc={selectedImage} />
 
-            
+            <footer><p>remerciement</p></footer>
         </div>
     );
 };

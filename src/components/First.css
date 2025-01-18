@@ -1,15 +1,24 @@
 .first {
     display: flex;
-    justify-content: center; /* Centre les éléments horizontalement */
-    align-items: center; /* Centre les éléments verticalement */
-    height: 100vh; /* Utilise la hauteur complète de la fenêtre */
-    margin-left: 7%; /* Espacement à gauche */
-    margin-right: 7%; /* Espacement à droite */
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    margin-left: 7%; 
+    margin-right: 7%; 
     position: relative;
     background-color: white;
     border-right: solid black 5px;
     border-left: solid black 5px;
     border-radius: 10px;
+    
+}
+
+@media (max-width: 480px) {
+    .first {
+        
+        z-index: 1;
+        
+    }
 }
 
 .photoProfile {
@@ -19,15 +28,16 @@
     opacity: 0;      /* Initialement l'image est invisible */
     transform: scale(2); /* L'image commence à sa taille normale */
     position: absolute;
-    animation: fadeIn 3s ease-in-out forwards, shrinkAndMove 2s ease-in-out 2s forwards; /* Applique les animations */
+    animation: fadeIn 3s ease-in-out forwards, shrinkAndMove 2s ease-in-out 2s forwards; 
 }
 
 @media (max-width: 480px) {
     .photoProfile {
         width: 260px; 
         height: 260px; 
-        transform: scale(1.5);
-        animation: fadeIn 4s ease-in-out forwards, shrinkAndMove 3s ease-in-out 2s forwards; /* Applique les animations */
+        transform: scale(2) translateX(0);
+        animation: fadeIn 4s ease-in-out forwards, shrinkAndMove 3s ease-in-out 2s forwards; 
+        z-index: 2;
     }
 }
 

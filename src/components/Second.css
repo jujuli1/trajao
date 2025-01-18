@@ -33,7 +33,7 @@ ul{
 }
 
 .graphique{
-    margin-bottom: 30vh;
+    margin-bottom: 27vh;
     
 }
 
@@ -43,5 +43,41 @@ ul{
   font-family: 'Patrick Hand', cursive;
 }
 
+.ruche{
+    width: 5vh ;
+    height: 5vh;
+    
+}
 
+.laruche{
+  width: 36%;
+  display: flex;
+  gap: 10vh;
+  font-size: 3vh;
+  margin-left: 5vh;
+}
+
+@media screen and (max-width: 480px) {
+  .laruche {
+    width: 75%;
+  display: flex;
+  gap: 10vh;
+  font-size: 2vh;
+  margin-left: 3vh;
+  }
+}
+
+.thx {
+    display: flex;
+    margin-bottom: 6vh;
+    
+}
+.linkthx{
+  font-family: 'Patrick Hand', cursive;
+}
+
+.merci{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 5vh;
+}
   

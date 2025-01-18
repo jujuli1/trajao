@@ -13,7 +13,8 @@ import Brioch from '../images/tarot1.jpg';
 import Cyclope from '../images/tarot2.jpg';
 import Witch from '../images/witch.png';
 import Tigre from '../images/tigre.bmp';
-import Sorciere from '../images/sorciere.png'
+import Sorciere from '../images/sorciere.png';
+import Ruche from '../images/ruche.jpg'
 
 
 
@@ -67,7 +68,23 @@ const Second = () => {
             {/* Modal */}
             <Modal show={modalOpen} onClose={closeModal} imgSrc={selectedImage} />
 
-            <footer><p>remerciement</p></footer>
+            <footer>
+
+            <p className='merci'>remerciements</p>
+                <div className='thx'>
+
+                    
+            <div className='laruche' >
+
+            
+            <a className='linkthx' href='https://www.facebook.com/laruchedesarts22/photos?locale=fr_FR'><img src={Ruche} className='ruche'/>La Ruche des arts 22</a>
+            <a className='linkthx' href='https://www.instagram.com/collectiflabrioche/'>La Brioch</a>
+
+            </div>
+                </div>
+                
+            
+            </footer>
         </div>
     );
 };

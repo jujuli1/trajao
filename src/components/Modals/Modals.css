@@ -22,6 +22,18 @@
     width: auto;
 }
 
+@media (max-width: 480px) {
+    .modal-content  {
+        background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #0003;
+  padding: 20px;
+  position: sticky;
+  max-width: 80%;
+  width: 37vh;
+    }
+}
+
 .modal-image {
     width: auto;
     height: auto;

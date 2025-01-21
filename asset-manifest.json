@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trajao/static/css/main.1eff3103.css",
+    "main.css": "/trajao/static/css/main.a8576420.css",
     "main.js": "/trajao/static/js/main.c1ba1e74.js",
     "static/js/488.9bb93aa1.chunk.js": "/trajao/static/js/488.9bb93aa1.chunk.js",
     "static/media/sorciere.png": "/trajao/static/media/sorciere.087b373e8bee0a0eef93.png",
@@ -20,12 +20,12 @@
     "static/media/ruche.jpg": "/trajao/static/media/ruche.4ea572c9abad0c7576f2.jpg",
     "static/media/logo.svg": "/trajao/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/trajao/index.html",
-    "main.1eff3103.css.map": "/trajao/static/css/main.1eff3103.css.map",
+    "main.a8576420.css.map": "/trajao/static/css/main.a8576420.css.map",
     "main.c1ba1e74.js.map": "/trajao/static/js/main.c1ba1e74.js.map",
     "488.9bb93aa1.chunk.js.map": "/trajao/static/js/488.9bb93aa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eff3103.css",
+    "static/css/main.a8576420.css",
     "static/js/main.c1ba1e74.js"
   ]
 }

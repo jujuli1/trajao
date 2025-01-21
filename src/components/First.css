@@ -134,6 +134,13 @@
   margin-right: -89vh;
 }
 
+@media screen and (max-width: 768px) {
+    .signature{
+        
+      margin-right: 0vh;
+    }
+  }
+
 #sign{
     stroke-dasharray: 3048;
     stroke-dashoffset: 3048;
